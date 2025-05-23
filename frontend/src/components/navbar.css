@@ -1,0 +1,28 @@
+/* navbar.css */
+
+.navbar {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .navlist {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+  }
+  
+  .navlist li {
+ 
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+  }
+  
+  .navlist li:hover {
+    color: #ffcc00;
+  }
+  
